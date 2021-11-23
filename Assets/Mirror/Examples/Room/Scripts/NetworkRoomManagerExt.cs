@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 namespace Mirror.Examples.NetworkRoom
@@ -18,6 +19,24 @@ namespace Mirror.Examples.NetworkRoom
             // spawn the initial batch of Rewards
             if (sceneName == GameplayScene)
                 Spawner.InitialSpawn();
+        }
+
+
+        public override void Start() => StartCoroutine(Connect());
+
+        public void StartGame()
+        {
+            
+        }
+
+
+        IEnumerator Connect()
+        {
+            var manager = GetComponent<NetworkManager>();
+            manager.StartHost();
+            NetworkClient.AddPlayer();
+            yield return new WaitForSeconds(5f);
+            ServerChangeScene("OnlineScene");
         }
 
         /// <summary>
@@ -70,7 +89,7 @@ namespace Mirror.Examples.NetworkRoom
         {
             base.OnGUI();
 
-            if (allPlayersReady && showStartButton && GUI.Button(new Rect(150, 300, 120, 20), "START GAME"))
+            if (allPlayersReady && showStartButton && GUI.Button(new Rect(Screen.width/2f, Screen.height/2f, 120, 20), "START GAME"))
             {
                 // set to false to hide it in the game scene
                 showStartButton = false;
@@ -78,5 +97,8 @@ namespace Mirror.Examples.NetworkRoom
                 ServerChangeScene(GameplayScene);
             }
         }
+        
+        
+        
     }
 }

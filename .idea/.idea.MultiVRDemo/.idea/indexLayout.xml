@@ -3,6 +3,7 @@
   <component name="ContentModelUserStore">
     <attachedFolders />
     <explicitIncludes>
+      <Path>$USER_HOME$/Downloads/PicoXR</Path>
       <Path>Library/PackageCache/com.antilatency.sdk@c2f6864b87</Path>
       <Path>Library/PackageCache/com.unity.collab-proxy@1.7.1</Path>
       <Path>Library/PackageCache/com.unity.ext.nunit@1.0.6</Path>
@@ -10,10 +11,14 @@
       <Path>Library/PackageCache/com.unity.ide.visualstudio@2.0.9</Path>
       <Path>Library/PackageCache/com.unity.ide.vscode@1.2.3</Path>
       <Path>Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0</Path>
+      <Path>Library/PackageCache/com.unity.subsystemregistration@1.1.0</Path>
       <Path>Library/PackageCache/com.unity.test-framework@1.1.27</Path>
       <Path>Library/PackageCache/com.unity.textmeshpro@3.0.6</Path>
       <Path>Library/PackageCache/com.unity.timeline@1.5.6</Path>
       <Path>Library/PackageCache/com.unity.visualscripting@1.6.1</Path>
+      <Path>Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview</Path>
+      <Path>Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7</Path>
+      <Path>Library/PackageCache/com.unity.xr.management@4.0.6</Path>
       <Path>Packages</Path>
       <Path>ProjectSettings</Path>
     </explicitIncludes>
