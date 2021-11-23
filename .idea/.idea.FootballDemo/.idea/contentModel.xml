@@ -3,6 +3,99 @@
   <component name="ContentModelStore">
     <e p="C:\Users\maxim.sviridov\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
     <e p="C:\Users\maxim.sviridov\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_FootballDemo.-684267139.00" t="ExcludeRecursive" />
+    <e p="C:\Users\maxim.sviridov\Downloads\PicoXR\Editor" t="Include">
+      <e p="BuildTool" t="Include">
+        <e p="PXR_ADBTool.cs" t="Include" />
+        <e p="PXR_BuildAndRunEW.cs" t="Include" />
+        <e p="PXR_BuildToolManager.cs" t="Include" />
+        <e p="PXR_DirectorySyncer.cs" t="Include" />
+        <e p="PXR_PathHelper.cs" t="Include" />
+        <e p="PXR_SceneQucikPreviewEW.cs" t="Include" />
+      </e>
+      <e p="PXR_BuildProcessor.cs" t="Include" />
+      <e p="PXR_ManagerEditor.cs" t="Include" />
+      <e p="PXR_Metadata.cs" t="Include" />
+      <e p="PXR_OverLayEditor.cs" t="Include" />
+      <e p="PXR_PlatformSettingEditor.cs" t="Include" />
+      <e p="PXR_SDKBuildCheck.cs" t="Include" />
+      <e p="PXR_SDKSettingAsset.cs" t="Include" />
+      <e p="PXR_SDKSettingEditor.cs" t="Include" />
+      <e p="PXR_SettingsEditor.cs" t="Include" />
+      <e p="Unity.XR.PicoXR.Editor.asmdef" t="Include" />
+    </e>
+    <e p="C:\Users\maxim.sviridov\Downloads\PicoXR\Runtime" t="Include">
+      <e p="InputSystem" t="Include">
+        <e p="DeviceLayouts.cs" t="Include" />
+      </e>
+      <e p="Scripts" t="Include">
+        <e p="Achievement" t="Include">
+          <e p="PXR_Achievement.cs" t="Include" />
+          <e p="PXR_AchievementAPI.cs" t="Include" />
+          <e p="PXR_AchievementDefinition.cs" t="Include" />
+          <e p="PXR_AchievementProgress.cs" t="Include" />
+          <e p="PXR_AchievementUpdate.cs" t="Include" />
+          <e p="PXR_Callback.cs" t="Include" />
+          <e p="PXR_CallbackRunner.cs" t="Include" />
+          <e p="PXR_DeserializableList.cs" t="Include" />
+          <e p="PXR_Message.cs" t="Include" />
+          <e p="PXR_Request.cs" t="Include" />
+        </e>
+        <e p="Controller" t="Include">
+          <e p="PXR_ControllerBattery.cs" t="Include" />
+          <e p="PXR_ControllerKeyEffects.cs" t="Include" />
+          <e p="PXR_ControllerKeyTips.cs" t="Include" />
+          <e p="PXR_ControllerLoader.cs" t="Include" />
+          <e p="PXR_TouchPadEffects.cs" t="Include" />
+        </e>
+        <e p="Features" t="Include">
+          <e p="PXR_Boundary.cs" t="Include" />
+          <e p="PXR_EyeTracking.cs" t="Include" />
+          <e p="PXR_FoveationRendering.cs" t="Include" />
+          <e p="PXR_FPS.cs" t="Include" />
+          <e p="PXR_Input.cs" t="Include" />
+          <e p="PXR_OverLay.cs" t="Include" />
+          <e p="PXR_PassThrough.cs" t="Include" />
+          <e p="PXR_ScreenFade.cs" t="Include" />
+          <e p="PXR_System.cs" t="Include" />
+        </e>
+        <e p="Payment" t="Include">
+          <e p="Callback.cs" t="Include" />
+          <e p="CommonDic.cs" t="Include" />
+          <e p="DemoController.cs" t="Include" />
+          <e p="InputManager.cs" t="Include" />
+          <e p="LoadingRatation.cs" t="Include" />
+          <e p="LoginSDK.cs" t="Include" />
+          <e p="PicoPaymentSDK.cs" t="Include" />
+        </e>
+        <e p="PXR_Loader.cs" t="Include" />
+        <e p="PXR_Manager.cs" t="Include" />
+        <e p="PXR_OverlayExternalSurfaceDemo.cs" t="Include" />
+        <e p="PXR_OverlayManager.cs" t="Include" />
+        <e p="PXR_PassThroughDescriptor.cs" t="Include" />
+        <e p="PXR_PassThroughSystem.cs" t="Include" />
+        <e p="PXR_PlatformSetting.cs" t="Include" />
+        <e p="PXR_Plugins.cs" t="Include" />
+        <e p="PXR_ProjectSetting.cs" t="Include" />
+        <e p="PXR_Settings.cs" t="Include" />
+        <e p="PXR_SQPLoader.cs" t="Include" />
+        <e p="PXR_Usages.cs" t="Include" />
+        <e p="Utils" t="Include">
+          <e p="PXR_ObjImporter.cs" t="Include" />
+          <e p="UIEvent" t="Include">
+            <e p="PXR_EnumFlags.cs" t="Include" />
+            <e p="PXR_EnumFlagsAttributeDrawer.cs" t="Include" />
+            <e p="PXR_InputModule.cs" t="Include" />
+            <e p="PXR_UICanvas.cs" t="Include" />
+            <e p="PXR_UIDraggableItem.cs" t="Include" />
+            <e p="PXR_UIDropZone.cs" t="Include" />
+            <e p="PXR_UIGraphicRaycaster.cs" t="Include" />
+            <e p="PXR_UIPointer.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Unity.XR.PicoXR.asmdef" t="Include" />
+      <e p="UnitySubsystemsManifest.json" t="Include" />
+    </e>
     <e p="D:\Demo\FootballDemo" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -229,6 +322,7 @@
                 <e p="RandomColor.cs" t="Include" />
                 <e p="Reward.cs" t="Include" />
                 <e p="Spawner.cs" t="Include" />
+                <e p="XRPlayerController.cs" t="Include" />
               </e>
             </e>
             <e p="Tanks" t="Include">
@@ -482,6 +576,8 @@
       <e p="Telepathy.csproj" t="IncludeRecursive" />
       <e p="Temp\Bin" t="ExcludeRecursive" />
       <e p="Unity.Mirror.CodeGen.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.PicoXR.csproj" t="IncludeRecursive" />
+      <e p="Unity.XR.PicoXR.Editor.csproj" t="IncludeRecursive" />
       <e p="where-allocations.csproj" t="IncludeRecursive" />
     </e>
   </component>
