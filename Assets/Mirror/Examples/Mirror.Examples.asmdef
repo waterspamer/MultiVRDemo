@@ -1,18 +1,15 @@
 {
     "name": "Mirror.Examples",
-    "rootNamespace": "",
     "references": [
         "Mirror",
-        "Mirror.Components",
-        "Antilatency.SDK"
+        "Mirror.Components"
     ],
+    "optionalUnityReferences": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": true,
-    "defineConstraints": [],
-    "versionDefines": [],
-    "noEngineReferences": false
+    "defineConstraints": []
 }
