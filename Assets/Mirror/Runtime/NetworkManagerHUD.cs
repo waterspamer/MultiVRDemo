@@ -68,9 +68,10 @@ namespace Mirror
                 GUILayout.BeginHorizontal();
                 if (GUILayout.Button("Client"))
                 {
-                    manager.StartClient();
+                    //manager.StartClient();
                 }
-                manager.networkAddress = GUILayout.TextField(manager.networkAddress);
+                manager.StartClient();
+                manager.networkAddress =  GUILayout.TextField(manager.networkAddress) ; //"192.168.222.245";
                 GUILayout.EndHorizontal();
 
                 // Server Only
