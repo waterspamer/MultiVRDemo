@@ -6,10 +6,41 @@ using UnityEngine;
 
 public class DataTransiton : MonoBehaviour
 {
-
+    [Header("Rig presets")]
     public AltTracking a;
 
+    public AltTracking leftHand;
+    
+    public AltTracking rightHand;
+
+    public AltTracking leftFoot;
+
+    public AltTracking rightFoot;
+
+
+    
+    
+    [Header("Network Visualizing presets")]
     public Transform networkObject;
+
+    public string leftHandName;
+    
+    public string rightHandName;
+
+    
+    public string leftFootName;
+
+    public string rightFootName;
+
+
+
+
+    private Transform _lHand;
+    private Transform _rHand;
+    private Transform _lFoot;
+    private Transform _rFoot;
+    
+
 
     public int index;
     IEnumerator Delay(Action act)
@@ -34,6 +65,13 @@ public class DataTransiton : MonoBehaviour
                 list.Add(gameObj);
             }
         }
+
+        var obj = list[index].transform;
+        _lHand = obj.Find(leftHandName);
+        _rHand = obj.Find(rightHandName);
+        _lFoot = obj.Find(leftFootName);
+        _rFoot = obj.Find(rightFootName);
+        
         return list[index].transform;
     }
 
@@ -44,6 +82,16 @@ public class DataTransiton : MonoBehaviour
     void Update()
     {
         if (a && networkObject)
+        {
             networkObject.SetPositionAndRotation(a.transform.position, a.transform.rotation);
+            
+            _lHand.SetPositionAndRotation(leftHand.transform.position, leftHand.transform.rotation);
+            _rHand.SetPositionAndRotation(rightHand.transform.position, rightHand.transform.rotation);
+            _lFoot.SetPositionAndRotation(leftFoot.transform.position, leftFoot.transform.rotation);
+            _rFoot.SetPositionAndRotation(rightFoot.transform.position, rightFoot.transform.rotation);
+
+            
+        }
+            
     }
 }

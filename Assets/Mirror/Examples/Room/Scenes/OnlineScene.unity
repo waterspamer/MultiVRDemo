@@ -498,7 +498,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   a: {fileID: 1859295474}
+  leftHand: {fileID: 0}
+  rightHand: {fileID: 0}
+  leftFoot: {fileID: 0}
+  rightFoot: {fileID: 0}
   networkObject: {fileID: 0}
+  leftHandName: 
+  rightHandName: 
+  leftFootName: 
+  rightFootName: 
   index: 0
 --- !u!1 &733367779
 GameObject:
@@ -1187,7 +1195,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   a: {fileID: 1859295474}
+  leftHand: {fileID: 0}
+  rightHand: {fileID: 0}
+  leftFoot: {fileID: 0}
+  rightFoot: {fileID: 0}
   networkObject: {fileID: 0}
+  leftHandName: leftHand
+  rightHandName: rightHand
+  leftFootName: leftFoot
+  rightFootName: rightFoot
   index: 1
 --- !u!114 &1859295477 stripped
 MonoBehaviour:
