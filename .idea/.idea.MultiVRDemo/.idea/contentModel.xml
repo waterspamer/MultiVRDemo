@@ -314,6 +314,7 @@
                 <e p="RandomColor.cs" t="Include" />
                 <e p="Reward.cs" t="Include" />
                 <e p="Spawner.cs" t="Include" />
+                <e p="Ternar.cs" t="Include" />
               </e>
             </e>
             <e p="Tanks" t="Include">

@@ -1,4 +1,6 @@
 using System.Collections;
+using JetBrains.Annotations;
+using Mirror.Examples.Room.Scripts;
 using UnityEngine;
 
 namespace Mirror.Examples.NetworkRoom
@@ -22,7 +24,11 @@ namespace Mirror.Examples.NetworkRoom
         }
 
 
-        public override void Start() => StartCoroutine(Connect());
+        public override void Start()
+        {
+            if (!Ternar.isClient)
+                StartCoroutine(Connect());
+        }
 
         public void StartGame()
         {
