@@ -85,10 +85,10 @@ public class DataTransiton : MonoBehaviour
         {
             networkObject.SetPositionAndRotation(a.transform.position, a.transform.rotation);
             
-            _lHand.SetPositionAndRotation(leftHand.transform.position, leftHand.transform.rotation);
-            _rHand.SetPositionAndRotation(rightHand.transform.position, rightHand.transform.rotation);
-            _lFoot.SetPositionAndRotation(leftFoot.transform.position, leftFoot.transform.rotation);
-            _rFoot.SetPositionAndRotation(rightFoot.transform.position, rightFoot.transform.rotation);
+            _lHand?.SetPositionAndRotation(leftHand.transform.position, leftHand.transform.rotation);
+            _rHand?.SetPositionAndRotation(rightHand.transform.position, rightHand.transform.rotation);
+            _lFoot?.SetPositionAndRotation(leftFoot.transform.position, leftFoot.transform.rotation);
+            _rFoot?.SetPositionAndRotation(rightFoot.transform.position, rightFoot.transform.rotation);
 
             
         }
