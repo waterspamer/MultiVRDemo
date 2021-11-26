@@ -9,6 +9,8 @@ public class DataTransiton : MonoBehaviour
     [Header("Rig presets")]
     public AltTracking a;
 
+    public Transform camera;
+
     public AltTracking leftHand;
     
     public AltTracking rightHand;
@@ -32,6 +34,8 @@ public class DataTransiton : MonoBehaviour
 
     public string rightFootName;
 
+    public string vrHeadName;
+
 
 
 
@@ -39,7 +43,8 @@ public class DataTransiton : MonoBehaviour
     private Transform _rHand;
     private Transform _lFoot;
     private Transform _rFoot;
-    
+
+    private Transform _vrHead;
 
 
     public int index;
@@ -67,11 +72,14 @@ public class DataTransiton : MonoBehaviour
         }
 
         var obj = list[index].transform;
+        
         _lHand = obj.Find(leftHandName);
         _rHand = obj.Find(rightHandName);
         _lFoot = obj.Find(leftFootName);
         _rFoot = obj.Find(rightFootName);
-        
+
+        _vrHead = obj.Find(vrHeadName);
+
         return list[index].transform;
     }
 
@@ -89,7 +97,8 @@ public class DataTransiton : MonoBehaviour
             _rHand?.SetPositionAndRotation(rightHand.transform.position, rightHand.transform.rotation);
             _lFoot?.SetPositionAndRotation(leftFoot.transform.position, leftFoot.transform.rotation);
             _rFoot?.SetPositionAndRotation(rightFoot.transform.position, rightFoot.transform.rotation);
-
+            
+            _vrHead?.SetPositionAndRotation(camera.transform.position, camera.transform.rotation);
             
         }
             

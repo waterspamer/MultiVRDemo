@@ -71,7 +71,7 @@ namespace Mirror
                     //manager.StartClient();
                 }
                 manager.StartClient();
-                manager.networkAddress =  "192.168.222.188";
+                manager.networkAddress =  "192.168.222.122";
                 GUILayout.EndHorizontal();
 
                 // Server Only
