@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92ce2fdb-112f-4aea-a996-ab743242f5d3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MultiVRDemo/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MultiVRDemo/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MultiVRDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MultiVRDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DataTransiton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DataTransiton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scenes/OnlineScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scenes/OnlineScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +97,7 @@
       <workItem from="1637675276847" duration="8649000" />
       <workItem from="1637748231308" duration="1448000" />
       <workItem from="1637752131246" duration="5216000" />
-      <workItem from="1637844067434" duration="3709000" />
+      <workItem from="1637844067434" duration="4441000" />
     </task>
     <servers />
   </component>
