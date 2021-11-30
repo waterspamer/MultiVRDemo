@@ -5,18 +5,21 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Mirror/Examples/Room/Scenes/OfflineScene.unity
     guid: 9e6f14982412b2545a0911ebaaa46a23
-  - enabled: 1
+  - enabled: 0
     path: Assets/Mirror/Examples/Room/Scenes/OnlineScene.unity
     guid: d7a6763559b31854586c9e49916273ef
-  - enabled: 1
+  - enabled: 0
     path: Assets/Mirror/Examples/Room/Scenes/RoomScene.unity
     guid: 48478f4d522f96945b8396f376299d3a
   - enabled: 0
     path: Assets/Mirror/Examples/Room/Scenes/Test.unity
     guid: f47e8a086c0d66b42999c166cc376345
+  - enabled: 1
+    path: Assets/Mirror/Examples/Room/Scenes/SinglePlayerScene.unity
+    guid: 5c061df7e84caaa47a37c3a8f1ebb1e7
   m_configObjects:
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: 13747e75277584348991f85b830b78b8, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 43a30964fd361dd4cb63bb6bd2b17041, type: 2}

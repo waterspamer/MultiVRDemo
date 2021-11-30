@@ -72,7 +72,7 @@ public class DataTransiton : MonoBehaviour
             }
         }
 
-        index = Ternar.isClient ? 0 : 1;
+        index = NetworkConfigurator.isClient ? 0 : 1;
 
         var obj = list[index].transform;
         

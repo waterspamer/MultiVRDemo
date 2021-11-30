@@ -18,24 +18,24 @@ public class VRUIController : MonoBehaviour
 
     private void Start()
     {
-        actionButtonText.text = Ternar.isClient ? "Connect" : "Host";
-        inputField.readOnly = !Ternar.isClient;
+        actionButtonText.text = NetworkConfigurator.isClient ? "Connect" : "Host";
+        inputField.readOnly = !NetworkConfigurator.isClient;
         inputField.text = GetLocalIPAddress();
     }
 
     public void NetworkAction()
     {
         manager.networkAddress = inputField.text;
-        if (!Ternar.isClient) manager.StartHost();
+        if (!NetworkConfigurator.isClient) manager.StartHost();
         else manager.StartClient();
     }
     
 
     public void ToggleServerClient()
     {
-        Ternar.isClient = !Ternar.isClient;
-        actionButtonText.text = Ternar.isClient ? "Connect" : "Host";
-        inputField.readOnly = !Ternar.isClient;
+        NetworkConfigurator.isClient = !NetworkConfigurator.isClient;
+        actionButtonText.text = NetworkConfigurator.isClient ? "Connect" : "Host";
+        inputField.readOnly = !NetworkConfigurator.isClient;
 
     }
     

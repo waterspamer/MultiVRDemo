@@ -97,6 +97,7 @@
       <e p="UnitySubsystemsManifest.json" t="Include" />
     </e>
     <e p="D:\Demo\Football\MultiVRDemo" t="IncludeRecursive">
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="DataTransiton.cs" t="Include" />
@@ -307,14 +308,20 @@
             </e>
             <e p="Room" t="Include">
               <e p="Scripts" t="Include">
+                <e p="NetworkConfigurator.cs" t="Include" />
                 <e p="NetworkRoomManagerExt.cs" t="Include" />
                 <e p="NetworkRoomPlayerExt.cs" t="Include" />
                 <e p="PlayerController.cs" t="Include" />
                 <e p="PlayerScore.cs" t="Include" />
                 <e p="RandomColor.cs" t="Include" />
                 <e p="Reward.cs" t="Include" />
+                <e p="Singleplayer" t="Include">
+                  <e p="FieldScaler.cs" t="Include" />
+                </e>
                 <e p="Spawner.cs" t="Include" />
-                <e p="Ternar.cs" t="Include" />
+                <e p="UI" t="Include">
+                  <e p="PXRInteractor.cs" t="Include" />
+                </e>
               </e>
             </e>
             <e p="Tanks" t="Include">
@@ -545,6 +552,17 @@
           </e>
           <e p="Version.txt" t="Include" />
         </e>
+        <e p="Plugins" t="Include">
+          <e p="Android" t="Include">
+            <e p="AndroidManifest.xml" t="Include" />
+            <e p="res" t="Include">
+              <e p="xml" t="Include">
+                <e p="usb_filter.xml" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="RigidbodyBallKicker.cs" t="Include" />
         <e p="ScriptTemplates" t="Include">
           <e p="50-Mirror__Network Manager-NewNetworkManager.cs.txt" t="Include" />
           <e p="51-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt" t="Include" />

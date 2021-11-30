@@ -26,7 +26,7 @@ namespace Mirror.Examples.NetworkRoom
 
         public override void Start()
         {
-            if (!Ternar.isClient)
+            if (!NetworkConfigurator.isClient)
                 StartCoroutine(Connect());
         }
 

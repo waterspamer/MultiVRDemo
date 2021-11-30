@@ -23,7 +23,7 @@ namespace Mirror
 
         void OnGUI()
         {
-            /*
+            
             GUILayout.BeginArea(new Rect(10 + offsetX, 40 + offsetY, 215, 9999));
             if (!NetworkClient.isConnected && !NetworkServer.active)
             {
@@ -49,7 +49,7 @@ namespace Mirror
 
             StopButtons();
 
-            GUILayout.EndArea(); */
+            GUILayout.EndArea(); 
         }
 
         void StartButtons()
@@ -72,7 +72,7 @@ namespace Mirror
                     //manager.StartClient();
                 }
                 manager.StartClient();
-                manager.networkAddress =  "192.168.222.122";
+                manager.networkAddress =  "192.168.222.187";
                 GUILayout.EndHorizontal();
 
                 // Server Only
