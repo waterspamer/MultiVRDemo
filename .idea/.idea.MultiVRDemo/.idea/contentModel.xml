@@ -553,6 +553,7 @@
           <e p="55-Mirror__Network Room Player-NewNetworkRoomPlayer.cs.txt" t="Include" />
           <e p="56-Mirror__Network Discovery-NewNetworkDiscovery.cs.txt" t="Include" />
         </e>
+        <e p="VRUIController.cs" t="Include" />
         <e p="XrSample" t="Include">
           <e p="Scripts" t="Include">
             <e p="AltTrackingXR.cs" t="Include" />

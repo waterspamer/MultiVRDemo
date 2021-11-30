@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Antilatency.SDK;
+using Mirror.Examples.Room.Scripts;
 using UnityEngine;
 
 public class DataTransiton : MonoBehaviour
@@ -70,6 +71,8 @@ public class DataTransiton : MonoBehaviour
                 list.Add(gameObj);
             }
         }
+
+        index = Ternar.isClient ? 0 : 1;
 
         var obj = list[index].transform;
         

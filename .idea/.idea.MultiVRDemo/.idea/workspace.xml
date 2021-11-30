@@ -20,13 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92ce2fdb-112f-4aea-a996-ab743242f5d3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MultiVRDemo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MultiVRDemo/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MultiVRDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MultiVRDemo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/DataTransiton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DataTransiton.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Prefabs/GamePlayer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Prefabs/GamePlayer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scenes/OfflineScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scenes/OfflineScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scenes/OnlineScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scenes/OnlineScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scripts/Ternar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scripts/Ternar.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mirror/Runtime/NetworkManagerHUD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Runtime/NetworkManagerHUD.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XrSample/Devices/Bracer/Materials/Bracer.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XrSample/Devices/Bracer/Materials/Bracer.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XrSample/Devices/Tag/Materials/Tag.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XrSample/Devices/Tag/Materials/Tag.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XrSample/Devices/Tag/Tag.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XrSample/Devices/Tag/Tag.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,9 +58,10 @@
         <option value="$PROJECT_DIR$/Assets/XrSample/Scripts/AltTrackingXR.cs" />
         <option value="$PROJECT_DIR$/Assets/Mirror/Examples/MultipleAdditiveScenes/Scripts/PlayerScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scripts/NetworkRoomManagerExt.cs" />
-        <option value="$PROJECT_DIR$/Assets/DataTransiton.cs" />
         <option value="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scripts/Ternar.cs" />
+        <option value="$PROJECT_DIR$/Assets/DataTransiton.cs" />
         <option value="$PROJECT_DIR$/Assets/Mirror/Runtime/NetworkManagerHUD.cs" />
+        <option value="$PROJECT_DIR$/Assets/VRUIController.cs" />
       </list>
     </option>
   </component>
@@ -85,10 +89,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="12216">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="12216" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -108,6 +112,8 @@
       <workItem from="1637752131246" duration="5216000" />
       <workItem from="1637844067434" duration="4441000" />
       <workItem from="1637935693031" duration="6661000" />
+      <workItem from="1638193261773" duration="596000" />
+      <workItem from="1638268451152" duration="5280000" />
     </task>
     <servers />
   </component>
