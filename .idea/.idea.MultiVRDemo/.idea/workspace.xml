@@ -23,17 +23,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MultiVRDemo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MultiVRDemo/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MultiVRDemo/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MultiVRDemo/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MultiVRDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MultiVRDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DataTransiton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DataTransiton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Mirror.Examples.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Mirror.Examples.asmdef" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/RigidbodyPhysics/PhysicMaterials/Ball.physicMaterial" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/RigidbodyPhysics/PhysicMaterials/Ball.physicMaterial" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scenes/OfflineScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scenes/OfflineScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scripts/NetworkRoomManagerExt.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scripts/NetworkRoomManagerExt.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scripts/Ternar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scripts/NetworkConfigurator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scripts/Ternar.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scripts/NetworkConfigurator.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Runtime/NetworkManagerHUD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Runtime/NetworkManagerHUD.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VRUIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VRUIController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scenes/SinglePlayerScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scenes/SinglePlayerScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scripts/Singleplayer/FieldScaler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scripts/Singleplayer/FieldScaler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,17 +44,15 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.antilatency.sdk@c2f6864b87/Runtime/Modules/AltTracking/AltTracking.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DataTransiton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scripts/NetworkConfigurator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Desktop/VRScripts/VRPlayer/DragRay.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/VRScripts/VRPlayer/DragRay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RigidbodyBallKicker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scripts/NetworkRoomPlayerExt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4A29708C-EE65-4AC0-ACA1-6C9D5624806A/2f/38e3e347/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventData/PointerEventData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Core/Variables/VariablesSaver.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../PlanetarySystem/Assets/PicoMobileSDK/Pvr_Achievement/Scripts/Pvr_Message.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../PlanetarySystem/Assets/PicoMobileSDK/Pvr_Achievement/Scripts/Pvr_Message.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.antilatency.sdk@c2f6864b87/Runtime/Modules/DeviceNetwork/DeviceNetwork.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.7/Runtime/TrackedPoseDriver/TrackedPoseDriver.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../PlanetarySystem/Assets/Dependencies/UniversalAssetsForGames/AltExtensions/AltTrackingPico.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Dependencies/UniversalAssetsForGames/VRPlayer/InputSource/InputSourcePico.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scripts/UI/PXRInteractor.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -74,8 +69,12 @@
         <option value="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scripts/UI/PXRInteractor.cs" />
         <option value="$PROJECT_DIR$/Assets/Mirror/Runtime/NetworkManagerHUD.cs" />
         <option value="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scripts/NetworkConfigurator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scripts/Singleplayer/FieldScaler.cs" />
         <option value="$PROJECT_DIR$/Assets/RigidbodyBallKicker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scripts/Singleplayer/FieldScaler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Dependencies/UniversalAssetsForGames/AltExtensions/AltTrackingPico.cs" />
+        <option value="$PROJECT_DIR$/Assets/Dependencies/UniversalAssetsForGames/MiscScripts/Pvr_ActiveOnControllerState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Dependencies/UniversalAssetsForGames/VRPlayer/InputSource/InputSourcePico.cs" />
+        <option value="$PROJECT_DIR$/Assets/Dependencies/UniversalAssetsForGames/VRPlayer/HideOnLocalClient.cs" />
       </list>
     </option>
   </component>
@@ -129,6 +128,7 @@
       <workItem from="1638193261773" duration="596000" />
       <workItem from="1638268451152" duration="12126000" />
       <workItem from="1638290139213" duration="2957000" />
+      <workItem from="1638343588344" duration="3933000" />
     </task>
     <servers />
   </component>

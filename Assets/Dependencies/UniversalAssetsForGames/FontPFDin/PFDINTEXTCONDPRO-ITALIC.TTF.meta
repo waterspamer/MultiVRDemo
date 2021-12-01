@@ -1,0 +1,43 @@
+fileFormatVersion: 2
+guid: 925bac220ce5f194ba8d8aab1cf2f8db
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: PF Din Text Cond Pro
+  fontNames:
+  - PF Din Text Cond Pro
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 059af8223bb4e234c8acda82e7eccf6a, type: 3}
+  - {fileID: 12800000, guid: 66da2a42200bb9c41b0b75a31421e28d, type: 3}
+  - {fileID: 12800000, guid: 294e6bf2fc3985044b855208c5e2136d, type: 3}
+  - {fileID: 12800000, guid: ae9a1db339ca8c344a16327d820049be, type: 3}
+  - {fileID: 12800000, guid: 75cb83f34b4dd6d44bb6d8e4052c9158, type: 3}
+  - {fileID: 12800000, guid: 363b7f3560c2e394db8b3f64158009f8, type: 3}
+  - {fileID: 12800000, guid: d590df8554910cd4fbf497ba3e50099a, type: 3}
+  - {fileID: 12800000, guid: 9ef58fa52247b4b4b9ce6e0c1132a448, type: 3}
+  - {fileID: 12800000, guid: c294bee707aabea44b2ecd1e47c5374f, type: 3}
+  - {fileID: 12800000, guid: 8afd7e18b65b4394584cc257fa7f2b4f, type: 3}
+  - {fileID: 12800000, guid: 785c26387617b754ea41052b07fa0f1a, type: 3}
+  - {fileID: 12800000, guid: 61a5fb19e4397de4f85f33c5db2e82e7, type: 3}
+  - {fileID: 12800000, guid: 67a8535ca5cf47e40bc7d0ae0aa89ecb, type: 3}
+  - {fileID: 12800000, guid: 6efa269c85573ae46a3bcc59e347b32c, type: 3}
+  - {fileID: 12800000, guid: 864a23ecf1519034fb09c3f2c0527129, type: 3}
+  - {fileID: 12800000, guid: e3c1ccfc49afcfb438379d9108f92623, type: 3}
+  - {fileID: 12800000, guid: 87266b0e53a82014086d11ebd840edc1, type: 3}
+  - {fileID: 12800000, guid: 1660336ebf52391429217e3ae1023733, type: 3}
+  - {fileID: 12800000, guid: f4dcf17ef5b3a814686c48ce45105198, type: 3}
+  - {fileID: 12800000, guid: 304e9caf7a08669488ecce14586269bb, type: 3}
+  - {fileID: 12800000, guid: 7354b3df15aa5cd40b95733a51131dad, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

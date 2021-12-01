@@ -97,10 +97,121 @@
       <e p="UnitySubsystemsManifest.json" t="Include" />
     </e>
     <e p="D:\Demo\Football\MultiVRDemo" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="DataTransiton.cs" t="Include" />
+        <e p="Dependencies" t="Include">
+          <e p="UniversalAssetsForGames" t="Include">
+            <e p="AltExtensions" t="Include">
+              <e p="AltTrackingAnyTag.cs" t="Include" />
+              <e p="AltTrackingTagWithPublicTrackingState.cs" t="Include" />
+              <e p="BracerAnyTag.cs" t="Include" />
+              <e p="OnUnfocusApplicationBehaviour.cs" t="Include" />
+            </e>
+            <e p="EventOnButton" t="Include">
+              <e p="Editor" t="Include">
+                <e p="EventOnButtonEditor.cs" t="Include" />
+              </e>
+              <e p="EventOnButton.cs" t="Include" />
+              <e p="EventOnKey.cs" t="Include" />
+            </e>
+            <e p="FpsClock" t="Include">
+              <e p="FpsClock.cs" t="Include" />
+            </e>
+            <e p="InspectorButton" t="Include">
+              <e p="InspectorButtonEditor.cs" t="Include" />
+            </e>
+            <e p="LookAt" t="Include">
+              <e p="FollowingParentXz.cs" t="Include" />
+              <e p="LookAtCamera.cs" t="Include" />
+              <e p="LookAtCameraXz.cs" t="Include" />
+            </e>
+            <e p="MiscScripts" t="Include">
+              <e p="Pvr_ActiveOnControllerState.cs" t="Include" />
+            </e>
+            <e p="Network" t="Include">
+              <e p="ClientPlayer.cs" t="Include" />
+              <e p="FollowingByTag.cs" t="Include" />
+              <e p="FollowingByTagTarget.cs" t="Include" />
+              <e p="NetGameManager.cs" t="Include" />
+              <e p="NetMoveing" t="Include">
+                <e p="NetMoveingManager.cs" t="Include" />
+                <e p="NetMoveingRayButton.cs" t="Include" />
+                <e p="NetPositions.cs" t="Include" />
+              </e>
+              <e p="NetRay.cs" t="Include" />
+              <e p="RayTarget.cs" t="Include" />
+            </e>
+            <e p="NewNetMenu" t="Include">
+              <e p="HidingLable.cs" t="Include" />
+              <e p="IRayButton.cs" t="Include" />
+              <e p="LoadIcon" t="Include">
+                <e p="LoadIcon.cs" t="Include" />
+              </e>
+              <e p="NetworkDiscoveryControl.cs" t="Include" />
+              <e p="OverriddenNetworkDiscovery.cs" t="Include" />
+              <e p="RayButtonOffline.cs" t="Include" />
+              <e p="RayButtonSimpleOffline.cs" t="Include" />
+              <e p="StartNetUI.cs" t="Include" />
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="GhostDoubleColored.shader" t="Include" />
+              <e p="UIButton.shader" t="Include" />
+            </e>
+            <e p="StretchingLine" t="Include">
+              <e p="StretchingLine.cs" t="Include" />
+            </e>
+            <e p="TextureScale" t="Include">
+              <e p="TextureScale.cs" t="Include" />
+            </e>
+            <e p="VisualEffects" t="Include">
+              <e p="PositionOscillations.cs" t="Include" />
+              <e p="ScaleOscillations.cs" t="Include" />
+            </e>
+            <e p="VRMessages" t="Include">
+              <e p="FlyingMessage.cs" t="Include" />
+            </e>
+            <e p="VRNeck" t="Include">
+              <e p="VRNeck.cs" t="Include" />
+            </e>
+            <e p="VRPlayer" t="Include">
+              <e p="DragRay.cs" t="Include" />
+              <e p="ExecuteByClientBase.cs" t="Include" />
+              <e p="FindBracer.cs" t="Include" />
+              <e p="HideOnLocalClient.cs" t="Include" />
+              <e p="HowerBehaviour" t="Include">
+                <e p="HowerBehaviour.cs" t="Include" />
+                <e p="HowerBehaviourChangeMaterial.cs" t="Include" />
+                <e p="HowerBehaviourEnableOutline.cs" t="Include" />
+                <e p="HowerBehaviourHighlight.cs" t="Include" />
+                <e p="HowerBehaviourScale.cs" t="Include" />
+                <e p="HowerBehaviourShowObject.cs" t="Include" />
+                <e p="HowerBehaviourTextColor.cs" t="Include" />
+              </e>
+              <e p="InputSource" t="Include">
+                <e p="InputSource.cs" t="Include" />
+                <e p="InputSourceBracer.cs" t="Include" />
+                <e p="InputSourceOculus.cs" t="Include" />
+                <e p="InputSourcePc.cs" t="Include" />
+                <e p="InputSourcePico.cs" t="Include" />
+                <e p="MultiplatformInput.cs" t="Include" />
+              </e>
+              <e p="PointerScale.cs" t="Include" />
+              <e p="RayButtons" t="Include">
+                <e p="RayButton.cs" t="Include" />
+                <e p="RayButtonCollider.cs" t="Include" />
+                <e p="RayButtonMoveing.cs" t="Include" />
+                <e p="RayButtonSimple.cs" t="Include" />
+              </e>
+              <e p="RayByMouse.cs" t="Include" />
+              <e p="TestFlyingCamera.cs" t="Include" />
+              <e p="TestPlayInEditorMode.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ExecuteByClient.cs" t="Include" />
         <e p="Mirror" t="Include">
           <e p="Authenticators" t="Include">
             <e p="BasicAuthenticator.cs" t="Include" />

@@ -9,6 +9,8 @@ public class FieldScaler : MonoBehaviour
     public GameObject playZone;
     public AltEnvironment altEnvironment;
 
+    public List<GameObject> gateSet;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +32,30 @@ public class FieldScaler : MonoBehaviour
         playZone.transform.localScale = new Vector3(difX, difZ, 1 );
 
         var aspectRatio = difX / difZ;
+
+        
+        
+        if (difX < difZ)
+        {
+            gateSet[0].SetActive(false);
+            gateSet[1].SetActive(false);
+            foreach (var gate in gateSet)
+            {
+                gate.transform.localScale =new Vector3(gate.transform.localScale.x, difZ, gate.transform.localScale.z );
+            }
+            
+        }
+        else
+        {
+            gateSet[2].SetActive(false);
+            gateSet[3].SetActive(false);
+            foreach (var gate in gateSet)
+            {
+                gate.transform.localScale =new Vector3(gate.transform.localScale.x, difX, gate.transform.localScale.z);
+            }
+        }
+            
+
         
         playZone.GetComponent<MeshRenderer>().material.SetTextureScale(
             "_MainTex", new Vector2(1, 1 / aspectRatio));
