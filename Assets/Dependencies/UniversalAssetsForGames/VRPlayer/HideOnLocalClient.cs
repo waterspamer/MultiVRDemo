@@ -14,7 +14,7 @@ public class HideOnLocalClient : MonoBehaviour
         Renderer[] renderers = GetComponentsInChildren<Renderer>(true);
         foreach (Renderer r in renderers)
         {
-            r.enabled = _player.isLocalPlayer != _invertState;
+            r.enabled = _player.isLocalPlayer == _invertState;
         }
     }
 }

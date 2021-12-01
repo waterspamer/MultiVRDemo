@@ -20,17 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92ce2fdb-112f-4aea-a996-ab743242f5d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MultiVRDemo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MultiVRDemo/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MultiVRDemo/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MultiVRDemo/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MultiVRDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MultiVRDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/RigidbodyPhysics/PhysicMaterials/Ball.physicMaterial" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/RigidbodyPhysics/PhysicMaterials/Ball.physicMaterial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dependencies/UniversalAssetsForGames/VRPlayer/HideOnLocalClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dependencies/UniversalAssetsForGames/VRPlayer/HideOnLocalClient.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scenes/SinglePlayerScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scenes/SinglePlayerScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scripts/Singleplayer/FieldScaler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scripts/Singleplayer/FieldScaler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +33,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../MultiVRDemo - Copy/Assets/Dependencies/UniversalAssetsForGames/Network/ClientPlayer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.antilatency.sdk@c2f6864b87/Runtime/Modules/AltTracking/AltTracking.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DataTransiton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Mirror/Examples/Room/Scripts/NetworkConfigurator.cs" root0="FORCE_HIGHLIGHTING" />
@@ -128,7 +121,7 @@
       <workItem from="1638193261773" duration="596000" />
       <workItem from="1638268451152" duration="12126000" />
       <workItem from="1638290139213" duration="2957000" />
-      <workItem from="1638343588344" duration="3933000" />
+      <workItem from="1638343588344" duration="5214000" />
     </task>
     <servers />
   </component>
